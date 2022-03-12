@@ -627,6 +627,36 @@ color: #FFFFFF;
 }
 /* !services */
 
+/* clients details */
+.clients_details{
+padding-top: 130px;
+padding-bottom: 130px;
+background: #423F3F;
+}
+.clients_details h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300 !important;
+font-size: 42px !important;
+line-height: 50px !important;
+color: #E5E5E5;
+}
+.clients_details p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300 !important;
+font-size: 22px !important;
+line-height: 33px !important;
+color: #C4C4C4;
+margin-top: 28px;
+margin-bottom: 32px;
+}
+.clients_details .second_client_img{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+/* !clients details */
+
 /* for mobile */
 @media screen and (max-width: 999px) {
   header .nav-item {
