@@ -471,7 +471,7 @@ color: #F0F0F0;
   margin-top: 120px;
   margin-bottom: 120px;
 }
-.watch_video .watch_video_text{
+.watch_video_text{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 300 !important;
@@ -498,8 +498,134 @@ color: #423F3F;
 }
 /* watch_video */
 
+/* quality_work */
+.quality_work{
+background: #F0F0F0;
+padding-top: 75px;
+padding-bottom: 130px;
+}
+.quality_work h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 42px !important;
+  line-height: 65px !important;
+  color: #423F3F;
+}
+.quality_work p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300 !important;
+font-size: 22px !important;
+line-height: 33px !important;
+text-align: justify;
+color: #423F3F;
+}
+.quality_work .left_img{
+  height: 515px !important;
+}
+.quality_work ul{
+  list-style: none;
+}
+.quality_work ul li{
+  margin-left: 15px;
+  position: relative;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  color: #423F3F;
+  margin-bottom: 20px;
+}
+.quality_work ul li::before{
+  content: url(../img/Rectangle\ 132.png);
+  position: absolute;
+  left: -15px;
+  top: 3px;
+}
+.quality_work .about_us_count {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  background: #E43800;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -100px;
+}
+.quality_work .about_us_count h4{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400 !important;
+font-size: 28px !important;
+line-height: 42px !important;
+color: rgba(247, 247, 247, 0.85);
+}
+.quality_work .about_us_count h6{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 275 !important;
+font-size: 18px !important;
+line-height: 27px !important;
+color: #F0F0F0;
+}
+/* !quality_work */
+.about_us_content .speech{
+  margin-top: 0;
+}
 /* !about us */
 
+/* services */
+.services_item{
+  margin-top: 165px;
+  margin-bottom: 120px;
+}
+.services_item h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 42px !important;
+  line-height: 63px !important;
+  color: #000000;
+}
+.services_item p{
+  margin-top: 35px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 22px !important;
+  line-height: 33px !important;
+  text-align: justify;
+  color: #423F3F;
+}
+.services_item .first_service{
+  background: url(../img/services11.png) no-repeat;
+  background-size: cover;
+  height: 680px;
+  padding-top: 85px;
+  padding-left: 32px;
+}
+.services_item .first_service h3{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300 !important;
+font-size: 42px !important;
+line-height: 50px !important;
+color: #FFFFFF;
+}
+.services_item .first_service h6{
+  margin-top: 35px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300 !important;
+  font-size: 24px !important;
+  line-height: 36px !important;
+  color: #E5E5E5;
+}
+.services_item .second_service{
+  background: url("../img/services22.png") no-repeat;
+}
+/* !services */
 
 /* for mobile */
 @media screen and (max-width: 999px) {
@@ -549,5 +675,14 @@ color: #423F3F;
     padding-left: 15px;
     padding-right: 15px;
   }
+
+  /* .about us */
+  .quality_work .left_img{
+    height: 400px !important;
+  }
+  .quality_work .about_us_count{
+    margin-left: 0 !important;
+  }
+  /* .about us */
 }
 /* !for mobile */
